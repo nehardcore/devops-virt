@@ -11,3 +11,36 @@
 Какой, на ваш взгляд, метод работы систем конфигурации более надёжный push или pull? - pull, т.к. инициация с машины на которой делаются изменения
 
 Задача 3  
+
+cch@MBP-Costas Vagrant_netology % vagrant --version
+Vagrant 2.3.4
+cch@MBP-Costas Vagrant_netology % vagrant box list
+bento/ubuntu-20.04                 (virtualbox, 202212.11.0)
+bento/ubuntu-20.04                 (vmware_desktop, 202112.19.0)
+bytesguy/ubuntu-server-20.04-arm64 (vmware_fusion, 1.0.0)
+spox/ubuntu-arm                    (vmware_desktop, 1.0.0)
+cch@MBP-Costas Vagrant_netology % VBoxManage -version
+7.0.4_BETA4r154605
+cch@MBP-Costas Vagrant_netology % ansible --version
+ansible [core 2.14.1]
+  config file = None
+  configured module search path = ['/Users/cch/.ansible/plugins/modules', '/usr/share/ansible/plugins/modules']
+  ansible python module location = /opt/homebrew/Cellar/ansible/7.1.0/libexec/lib/python3.11/site-packages/ansible
+  ansible collection location = /Users/cch/.ansible/collections:/usr/share/ansible/collections
+  executable location = /opt/homebrew/bin/ansible
+  python version = 3.11.1 (main, Dec 23 2022, 09:28:24) [Clang 14.0.0 (clang-1400.0.29.202)] (/opt/homebrew/Cellar/ansible/7.1.0/libexec/bin/python3.11)
+  jinja version = 3.1.2
+  libyaml = True
+cch@MBP-Costas Vagrant_netology %  
+
+Задание 4  
+Не могу запустить vagrunt up (провайдер virtualbox), зависает на server1.netology: SSH auth method: private key, после чего выдает ошибку:
+https://media.discordapp.net/attachments/1017375996132999168/1064934399851888701/Screenshot_2023-01-17_at_23.31.47.png  
+
+VagrantFile из занятия:
+https://cdn.discordapp.com/attachments/1017375996132999168/1064934056812351609/Screenshot_2023-01-17_at_23.36.05.png  
+
+Log virtualbox на момент зависания:  
+https://drive.google.com/file/d/1pIWO8zuL7lmD596n5s34lyX4d5CAYenV/view?usp=share_link  
+
+Написал в чате дискорд, но пока без ответа
