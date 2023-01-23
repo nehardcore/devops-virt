@@ -1,0 +1,6 @@
+Задание 1:  
+  
+Забрал готовый образ с репозитория, nginx запускается, но не понимаю как изменить index.html в этом активном образе. Прошу подсказать
+Результата добился только развернув образ "с ноля" через свой dockerfile https://bartek-blog.github.io/nginx/node/javascript/2019/12/15/nginx-hello-world.html, но это не совсем то, что нужно 
+  
+https://hub.docker.com/repository/docker/nehardcore/nginx_test/general
