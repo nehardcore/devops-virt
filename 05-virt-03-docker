@@ -1,6 +1,8 @@
 Задание 1:  
   
-Забрал готовый образ с репозитория, nginx запускается, но не понимаю как изменить index.html в этом активном образе. Прошу подсказать
-Результата добился только развернув образ "с ноля" через свой dockerfile https://bartek-blog.github.io/nginx/node/javascript/2019/12/15/nginx-hello-world.html, но это не совсем то, что нужно 
+Забрал официальный образ nginx и отправил docker push в свой репозиторий на docker hub (тем самым получил форк)
+Смонтировал новый образ на базе взятого, но заменив index.html. Отправил получившийся образ через docker push в репозиторий.  
   
-https://hub.docker.com/repository/docker/nehardcore/nginx_test/general
+https://hub.docker.com/repository/docker/nehardcore/netology_nginx/general  
+
+Задание 2:  
