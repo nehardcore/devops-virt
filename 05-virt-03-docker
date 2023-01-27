@@ -17,7 +17,7 @@ MongoDB, как основное хранилище данных для java-п�
 Gitlab сервер для реализации CI/CD процессов и приватный (закрытый) Docker Registry. - разбить все на микросервисы, реализовать в докере
 
 Задание 3:  
-```
+```bash
 cch@MBP-Costas netology % docker run -it --rm -d --name mycentos -v $(pwd)/data:/data centos
 Unable to find image 'centos:latest' locally
 latest: Pulling from library/centos
