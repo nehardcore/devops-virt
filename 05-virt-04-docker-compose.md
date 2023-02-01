@@ -11,3 +11,7 @@
 
 Задание 3:  
 <img width="1499" alt="image" src="https://user-images.githubusercontent.com/97674120/216037505-b8606a72-646b-487c-afbf-e366d4b605b2.png">
+
+Задание 4:
+Адрес отличается, т.к. пересоздавал виртуалку, но не сделал скрин после terraform apply. 
+![image](https://user-images.githubusercontent.com/97674120/216040966-59e2a696-7114-47b9-a136-2bbaec907654.png)
