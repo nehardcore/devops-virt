@@ -10,4 +10,4 @@
 
 
 Задание 3:  
-Вопрос пока отменяется, вроде разобрался, делаю.
+<img width="1499" alt="image" src="https://user-images.githubusercontent.com/97674120/216037505-b8606a72-646b-487c-afbf-e366d4b605b2.png">
