@@ -17,3 +17,12 @@ docker node ls:
 >Что такое Overlay Network?
 
 Сеть внутри главной сети между докер контейнерами. Для безопасности. Если получить доступ к главной сети, то не будет доступа к зашифрованному каналу обмена данными внутри docker swarm.
+
+# Задача 2
+    [yc-user@fhmp44p7tnks6s13fu7a ~]$ docker node ls
+    ID                            HOSTNAME                             STATUS    AVAILABILITY   MANAGER STATUS   ENGINE VERSION
+    77ubdfsn25phiuu5yq0tg9x2h     fhm5dcovdh2s66itr9qk.auto.internal   Ready     Active                          23.0.0
+    m30kwhcdwuqmf847un0wsusgc     fhm35q3khoppa886g83a.auto.internal   Ready     Active                          23.0.0
+    r6f6nqrz36ya0fqvrhm9qbijo *   fhmp44p7tnks6s13fu7a.auto.internal   Ready     Active         Leader           23.0.0 
+    
+ 
