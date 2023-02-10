@@ -25,4 +25,7 @@ docker node ls:
     m30kwhcdwuqmf847un0wsusgc     fhm35q3khoppa886g83a.auto.internal   Ready     Active                          23.0.0
     r6f6nqrz36ya0fqvrhm9qbijo *   fhmp44p7tnks6s13fu7a.auto.internal   Ready     Active         Leader           23.0.0 
     
- 
+# Задача 3
+![image](https://user-images.githubusercontent.com/97674120/218045967-306faff5-2700-46ed-aab8-5f01d82d7e7d.png)
+
+
